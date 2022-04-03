@@ -40,11 +40,3 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 ></Rating>
 ```
 
-`
-<Rating
-                    initialRating={star}
-                    emptySymbol="far fa-star icon-color"
-                    fullSymbol="fas fa-star icon-color"
-                    readonly></Rating>
-`
-
