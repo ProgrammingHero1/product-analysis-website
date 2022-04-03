@@ -16,3 +16,35 @@
 `Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot`
 
 3. For the dashboard, you can modify the data provided in `data.json` and you can load the data the way you want. 
+4. [optional] To display ratings, you can use font-awesome stars or you can use react ratings website [class component might make it confusing] [react rating github](https://github.com/dreyescat/react-rating)
+
+[react ratings demo](https://dreyescat.github.io/react-rating/)
+
+```
+npm install --save react-rating
+```
+```
+install font-awesome for react
+```
+
+```
+import Rating from 'react-rating';
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+<Rating
+    initialRating={3.5}
+    emptySymbol={<FontAwesomeIcon icon={faStar} />}
+    fullSymbol={<FontAwesomeIcon style={{color: 'goldenrod'}} icon={faStar} />}
+    readonly
+></Rating>
+```
+
+`
+<Rating
+                    initialRating={star}
+                    emptySymbol="far fa-star icon-color"
+                    fullSymbol="fas fa-star icon-color"
+                    readonly></Rating>
+`
+
