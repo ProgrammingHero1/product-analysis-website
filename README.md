@@ -41,3 +41,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 ```
 Please note, you will see an warning while using react rarting
 `react-dom.development.js:86 Warning: Using UNSAFE_componentWillReceiveProps in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.`
+
+
+
+
+
+            Project name: D P O E SOCITY
+            Live site Link: https://magnificent-palmier-ce4ba1.netlify.app/
+            my project Dpoe socity. i showing a car picture in home page and wtiteing something. I added reviews in web site            Deshbord, blog ect.    
+           
